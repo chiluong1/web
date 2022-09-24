@@ -158,7 +158,7 @@
     <div id="content" class="container">
         <div id="post">
             <div class="ligMa_1">
-                <a href="#"><img src="https://cdn-images-1.medium.com/max/800/1*hCLxRgOtiWBy4ykQZ1toWQ@2x.png"></a>
+                <a href="#"><img src="https://www.nicepng.com/png/detail/194-1941312_navi-logo-png-navi-cs-go-logo.png"></a>
             </div>
         </div>
 
