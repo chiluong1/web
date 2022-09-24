@@ -49,7 +49,7 @@
     padding-top: 20px;
 }
 .ligMa_2 select{
-    width: 120px;
+    width: 100px;
     height: 40px;
     font-size: 15px;
     
@@ -65,7 +65,7 @@
     overflow: hidden;
     font-size: 14px;
     border-radius: 23px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     -webkit-transition: all 0.35s ease;
     transition: all 0.35s ease;
     -webkit-box-sizing: border-box;
@@ -95,7 +95,7 @@
     overflow: hidden;
     font-size: 14px;
     border-radius: 23px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     -webkit-transition: all 0.35s ease;
     transition: all 0.35s ease;
     -webkit-box-sizing: border-box;
@@ -110,7 +110,7 @@
 
 }
 .ligMa_4 select{
-    width: 50px;
+    width: 100px;
     height: 40px;
     font-size: 30px;
 
@@ -129,7 +129,7 @@
     overflow: hidden;
     font-size: 14px;
     border-radius: 23px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     -webkit-transition: all 0.35s ease;
     transition: all 0.35s ease;
     -webkit-box-sizing: border-box;
