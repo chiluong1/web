@@ -1,0 +1,327 @@
+/* phan1 */
+body{
+    
+    font-family: 'Coming Soon', cursive;
+    margin: 0;
+    
+}
+.navbar{
+    border-bottom: 1px solid blanchedalmond;
+    background-image: url('https://c1.wallpaperflare.com/preview/859/867/603/cloud-air-sky-nature.jpg');
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 10px;
+    background-size: cover;
+    margin-bottom: 5px;
+} 
+.navbar-middle{
+    color:antiquewhite;
+    font-size: 40px;
+    line-height: 100px;
+}
+.navbar-left{
+    
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.navbar-item img {
+    
+    border: 5px solid rgb(183, 218, 28);
+    border-radius: 4px;
+}
+
+.navbar-item{
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 20px;
+    
+}
+
+.navbar-right .navbar-item {
+    border: 2px solid white;
+    border-radius: 100px;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    margin-right: 15px;
+}
+
+.navbar-item:hover{
+    border: 2px solid white;
+    background-color: white;
+    color:black;
+    font-weight: 600;
+}
+
+input{
+    align-content: center;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 20px; 
+}
+
+.timkiem{
+    border-bottom: 1px solid blanchedalmond;
+    display: flex;
+    padding: 100px ;
+    margin-bottom: 5px;
+}
+
+.timkiem h3 {
+    font-size: 50px;
+    color: whitesmoke;
+    font-weight: 600px;
+}
+.tieusutacgia-item h3{
+    text-align: left;
+    color:black;
+}
+
+
+a{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.705);
+}
+a:hover{
+    color: white;
+}
+
+h5{
+    font-size: 20px; 
+}
+
+#search {
+    border-radius: 10px;
+    width: 65px;  height: 30px;
+    font-weight: 550;
+    font-family: 'Coming Soon', cursive;
+    box-shadow: 6px 6px 6px black;
+    display: flex;
+}
+
+#search:hover{
+    border: 3px solid black;
+    width: 65px;  height: 30px;
+    font-weight: 900;
+    font-family: 'Coming Soon', cursive;
+    background-color: blanchedalmond; 
+    box-shadow: 3px 3px 3px black;  
+}
+
+#input_size {
+    width: 400px;  height: 30px;
+    box-shadow: 6px 6px 6px black;
+    font-family:'Coming Soon', cursive;
+    font-weight: 800;
+}
+
+#input_size:hover{
+    background-color: blanchedalmond;
+    font-family:'Coming Soon', cursive;
+    font-weight: 800;
+}
+
+#sasuke {
+    margin-top: 50px;
+    border: 10px solid white;
+    border-radius: 8px;
+    margin-left: 100px;
+    width: auto;
+    height: auto;
+    max-width: 500px;
+    margin-right: 50px;
+    box-shadow: 6px 6px 6px black;
+}
+
+.timkiem-item-left h3{
+    text-shadow: 10px 10px 10px black;
+}
+
+.timkiem-item-left h5{
+    text-shadow: 8px 5px 8px black;
+    color:rgb(255, 225, 205);
+}
+/* phan2 */
+
+.anh-tong img{
+    height: 300px;
+    max-width: 200px;
+    min-width: 180px;
+    border-radius: 5%;
+    border: 1px solid black;
+    box-shadow: 5px 10px 10px rgb(10, 12, 1);
+    object-fit: cover;
+    opacity: 90%;
+}
+.anh-tong img:hover {
+    border: 3px solid black;
+    opacity: 100%;
+    box-shadow: 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.anh-tong{
+    border-bottom: 1px solid blanchedalmond;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+    background-image: url('https://img.freepik.com/free-photo/concrete-wall-scratched-material-background-texture-concept_53876-42915.jpg?w=1380&t=st=1664424630~exp=1664425230~hmac=793ce70cc4d373f35d1692fa46819060e475eab97e545b5fbde1ba450cc92989');
+    background-size: cover;
+
+}
+.anh-item-cot1, .anh-item-cot2, .anh-item-cot3, .anh-item-cot4, .anh-item-cot5{
+    margin-left: 10px;
+
+}
+
+#big-p{
+    max-width: fit-content;
+    font-size: 35px;
+    font-weight: 900;
+    color: rgb(13, 14, 13);
+    text-shadow: 1px 0px 5px rgb(50, 54, 28);
+}
+.anh-tong p{
+    color: black;
+    text-shadow: 5px px 10px rgb(50, 54, 28);
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 900;
+    max-width: 200px;
+}
+/* phan3 */
+.danhgia {
+    margin-top: 20px;
+    text-align: center;
+}
+select{
+    font-size: 25px;
+    height: 50px;
+    border-radius: 100px;
+    background-image: url('https://img.freepik.com/free-vector/classic-vintage-rays-sunburst-retro-background_1017-33769.jpg?w=1380&t=st=1664439983~exp=1664440583~hmac=271e797f8e9e4dd59c2a640303528a8857edb1b59be90efe11d39e9142bb8514');
+    font-family: 'Coming Soon', cursive;
+    font-weight: 900;
+}
+option{
+    text-align: center;
+    font-weight: 900;
+    }
+/* phan4 */
+footer{
+    
+    padding-left: 10px;
+    line-height: 70px;
+    font-weight: 900;
+    background-color: rgb(190, 196, 196);
+}
+footer p{
+    text-align: center;
+} 
+#opinion {
+    text-align: center;
+    
+}
+#opinion input{
+    font-weight: 900;
+    font-family: 'Coming Soon', cursive;
+    margin-top: 10px;
+    height: 80px;
+    width: 400px;
+    font-size: 20px
+}
+#opinion input:hover{
+    background-color: blanchedalmond;
+}
+#nft{
+    border-top: 5px solid white;
+    background-image: url('https://static-cse.canva.com/blob/572026/removingbackgroundimages_Unsplash.jpeg');
+    padding-top: 10px;
+    padding-bottom: 20px;
+}   
+    
+
+.tg-item img{
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 10px 0 0 10px;
+    width: 130px;
+    height: 140px ;
+    display: flex;
+    flex-direction: column;
+    max-height: 140px;
+}
+.tg-item p{
+    font-weight: 900;
+    margin: 0 0 0 10px;
+}
+.anh-ts-tg{
+    display: flex;
+    flex-direction: row;
+    
+}
+.tieusu-item p{
+    border: 1px solid black;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+    overflow: auto;
+    height:140px;
+    background-color: rgb(209, 231, 224);
+    max-height: 140px;
+    max-width: 2000px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.tht-item{
+    opacity: 80%;
+    font-weight: 900;
+    font-family: 'Coming Soon', cursive;
+    border-radius: 15px;
+    width:85px;
+    height: 80px;
+    margin: 20px 20px 80px 20px;
+    background-image: url('https://img.freepik.com/free-vector/classic-vintage-rays-sunburst-retro-background_1017-33769.jpg?w=1380&t=st=1664439983~exp=1664440583~hmac=271e797f8e9e4dd59c2a640303528a8857edb1b59be90efe11d39e9142bb8514');
+}
+.tht-item:hover{
+    opacity: 100%;
+}
+.nd-tong{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: blanchedalmond;
+}
+#tieude{
+    text-align: center;
+    background-image: url('https://c1.wallpaperflare.com/preview/859/867/603/cloud-air-sky-nature.jpg');
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-size: cover;
+    color:white;
+    border-bottom: 2px solid white;
+    
+}
+.danhgia b{
+    color:white;
+    text-shadow: 5px 5px 5px black ;
+    font-size: 30px;
+}
+#send{
+    max-width:60px;
+    max-height: 50px;
+}
+
+
+
